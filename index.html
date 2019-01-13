@@ -9,27 +9,27 @@
     }
 
     html, body {
-      height: 100%;
+      min-height: 100%;
       margin: 0;
-      font-size: 14px;
+      font-size: 12px;
       overflow: hidden;
       background-color: rgba(165, 207, 249, .2);
     }
 
     .content {
-      display: flex;
-      max-height: 100%;
+      position: relative;
+      width: 100vw;
+      height: 100vh;
     }
 
     .terms {
-      flex: 1;
-      margin-top: 20px;
-      padding-left: 10px;
-      font: verdana;
+      position: absolute;
+      padding: 10vh 10px;
+      font-family: verdana;
+      z-index: 1;
     }
     .terms dt:before {
       content: "•";
-      padding-right: 3px;
       display: inline-block;
     }
 
@@ -64,10 +64,11 @@
     }
 
     .sailboat {
-      flex: 4;
-      text-align: center;
-      margin-top: 20px;
-      z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      width: 100vw;
+      height: 100vh;
 
       animation-name: floating;
       animation-duration: 4s;
@@ -87,8 +88,8 @@
     }
 
     .sailboat svg {
-      width: auto;
-      height: 90%;
+      min-width: 50vw;
+      max-height: 80vh;
     }
 
     path:target {
@@ -97,7 +98,7 @@
 
     .waves {
       background-repeat: repeat-x;
-      background-size: 20px 26vh;
+      background-size: 20px 70px;
       background-image: radial-gradient(circle at 10px -5px, transparent 12px, rgba(165, 207, 249, .9) 13px);
       background-position: bottom;
 
@@ -106,6 +107,12 @@
       animation-iteration-count: infinite;
       animation-fill-mode: both;
       animation-timing-function: ease-in-out;
+    }
+
+    @media screen and (max-width: 699px) {
+      .waves {
+        background-size: 20px 50px;
+      }
     }
 
     @keyframes waves {
@@ -118,11 +125,11 @@
       }
     }
 
-    h1 {
+    .title {
       margin: 0;
       padding: 0;
+      font-family: helvetica;
       font-size: 1.5rem;
-      font: helvetica;
       font-weight: 300;
       position: absolute;
       top: 4px;
@@ -132,8 +139,8 @@
     </style>
   </head>
   <body>
-    <h1>Velerísmo</h1>
     <div class="content waves">
+      <h1 class="title">Velerísmo</h1>
       <div class="terms">
         <dl>
           <dt>
