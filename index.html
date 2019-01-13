@@ -13,6 +13,7 @@
       margin: 0;
       font-size: 14px;
       overflow: hidden;
+      background-color: rgba(165, 207, 249, .2);
     }
 
     .content {
@@ -26,14 +27,13 @@
       padding-left: 10px;
       font: verdana;
     }
-    .terms a:before {
+    .terms dt:before {
       content: "•";
       padding-right: 3px;
       display: inline-block;
     }
 
     .terms a:link,
-    .terms a:active,
     .terms a:visited,
     .terms a:hover {
       color: #333;
@@ -43,6 +43,10 @@
     .terms a:hover {
       color: #000;
       border-bottom: 1px dotted rgba(0,0,0,.1);
+    }
+
+    .terms a:active {
+      color: #666;
     }
 
     .terms dl {
@@ -64,6 +68,22 @@
       text-align: center;
       margin-top: 20px;
       z-index: 1;
+
+      animation-name: floating;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: both;
+      animation-timing-function: linear;
+      animation-direction: alternate;
+    }
+
+    @keyframes floating {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-10px);
+      }
     }
 
     .sailboat svg {
@@ -78,14 +98,14 @@
     .waves {
       background-repeat: repeat-x;
       background-size: 20px 26vh;
-      background-image: radial-gradient(circle at 10px -5px, transparent 12px, rgba(165, 207, 249, .3) 13px);
+      background-image: radial-gradient(circle at 10px -5px, transparent 12px, rgba(165, 207, 249, .9) 13px);
       background-position: bottom;
 
       animation-name: waves;
-      animation-duration: 4s;
+      animation-duration: 5s;
       animation-iteration-count: infinite;
       animation-fill-mode: both;
-      animation-timing-function: linear;
+      animation-timing-function: ease-in-out;
     }
 
     @keyframes waves {
@@ -94,7 +114,7 @@
       }
 
       100% {
-        background-position-x: 20px;
+        background-position-x: -20px;
       }
     }
 
