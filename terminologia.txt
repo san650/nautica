@@ -1,0 +1,138 @@
+# Proa
+Es la parte delantera de toda embarción, por norma general en forma de cuña que ayuda a cortar el agua para que el barco pueda avanzar más fácilmente.
+EN: bow
+
+# Popa
+Es la parte trasera del barco, casi siempre es aquí donde se encuentra la zona de mando de una embarción de recreo
+EN: stern
+
+# Babor
+La parte izquierda de un barco si se mira desde popa hacia proa.
+EN: port
+
+# Estribor
+Es la parte derecha del barco si se mira desde popa hacia proa.
+EN: starboard
+
+# Amura
+Es la parte más delantera del costado de un barco, por tanto tenemos una amura de babor y otra amura de estribor.
+EN: starboard bow / port bow
+
+# Través
+La zona media del barco perpendicular a la línea proa-popa, suele coincidir con la parte del costado más ancho del barco, por tanto tenemos través de babor y través de estribor.
+EN: starboard beam / port beam
+
+# Aleta
+Es la parte más trasera del costado de un barco, por tanto tenemos aleta de babor y aleta de estribor
+EN: starboard quarter / port quarter
+
+# Eslora
+Es la longitud de un barco, medida de proa a popa y suele medirse en piés
+EN: boat length
+
+# Manga
+Es la medida del ancho del barco, medido horizontalmente de manera perpendicular a la línea proa-popa del barco
+EN: beam
+
+# Casco
+Es la estructura externa de un barco. La envolvente de un barco que por un lado protege el interior y hace que el barco pueda flotar.
+EN: hull
+IMG: partes-de-un-velero.jpg
+
+# Calado
+Es la distancia vertical medida entre la línea de flotación y el punto más profundo de un barco incluyendo su quilla u orza.
+EN: draft
+
+# Vela mayor
+Es la vela principal de todo barco a vela de recreo y competición. Esta vela está sujetada por el mástil y la botavara
+EN: main sail
+IMG: partes-de-un-velero.jpg
+
+# Génova
+Vela que se coloca a proa de un barco, entre el mástil y el estay. Se diferencia de la vela Foque en que esta es más grande y sobrepasa la proyección transversal del mástil.
+EN: genoa
+
+# Foque
+Vela que se coloca a proa de un barco, entre el mástil y el estay. Se diferencia de la vela Génova en que esta es más chica y no sobrepasa la proyección transversal del mástil.
+EN: jib
+IMG: partes-de-un-velero.jpg
+
+# Mástil
+Es el palo vertical en un velero que sirve para sujetar las velas. Para que el mástil se mantenga en vertical, en muchos barcos de vela ligera existe un sistema de cables y crucetas que lo sujeta y mantiene en su posición llamado jarcia que está compuesto por obenques, estay y backstay
+EN: mast
+IMG: partes-de-un-velero.jpg
+
+# Botavara
+Es una percha horizontal que sujeta la vela mayor.
+EN: boom
+IMG: partes-de-un-velero.jpg
+
+# Timón
+Es la parte del barco que nos permite poder gobernarlo y que vire (gire) hacia la banda de babor o la banda de estribor. Los dos sistemas más clásicos para manejar la pala del timón es a través de una caña o de una rueda.
+EN: rudder
+IMG: partes-de-un-velero.jpg
+
+# Orza
+Es un apéndice que va dentro del agua debajo del casco de los barcos de vela. Tiene dos funciones principales, la primera es hacer que el barco pueda avanzar hacia adelante cuando navega contra el viento y no derive. La segunda es la de actuar como lastre y contrapeso para evitar que el barco vuelque.
+EN: keel
+IMG: partes-de-un-velero.jpg
+
+# Escota
+Cabos que se hacen firmes en el puño de escota de las velas o en la botavara para orientar y manejar las velas.
+IMG: partes-de-un-velero.jpg
+
+# Pujamen
+Parte de una vela. Arista reforzada e inferior de la vela, si lo vemos como un triángulo sería el cateto menor.
+IMG: partes-de-un-velero.jpg
+TAGS: vela
+
+# Baluma
+Parte de una vela. Arista reforzada y exterior de la vela, si lo vemos como un triángulo sería la hipotenusa.
+IMG: partes-de-un-velero.jpg
+TAGS: vela
+
+# Grátil
+El grátil es el lado de la vela que va unido y sujeto al mástil en el caso de la vela mayor y al estay en el caso del foque.
+IMG: partes-de-un-velero.jpg
+TAGS: vela
+
+# Puño de driza
+Parte de una vela. Vertice superior de la vela que se conecta con el palo mayor a través de un cabo.
+IMG: partes-de-un-velero.jpg
+TAGS: vela
+
+# Puño de amura
+Es el vértice delantero de la vela triangular de un barco, es el vértice que se encuentra más próximo a las amuras. En la vela mayor va fijado a la parte baja del mástil y en el foque va unido a la proa del barco.
+IMG: partes-de-un-velero.jpg
+TAGS: vela
+
+# Puño de escota
+Es el vértice inferior más a popa de la vela, donde van afirmadas las escotas en el caso del foque y a la parte posterior de la botavara en la vela mayor.
+IMG: partes-de-un-velero.jpg
+TAGS: vela
+
+# Sable
+Son unas varillas o tubos laminados normalmente de fibra de vidrio o carbono que se utilizan para dar forma y rigidez a la vela. Evita también que se formen arrugas verticales.
+IMG: partes-de-un-velero.jpg
+TAGS: vela
+
+---
+# Cabo
+# Pala de timón
+
+# Obenque
+Son los cables o cabos de la jarcia firme que sujetan los palos o mástiles lateralmente. Se afirman a los costados por unas piezas denominadas cadenotes.
+
+# Jarcia de labor
+Son los cabos y aparejos que utilizamos para orientar las velas y manejar la embarcación. Lo forman las drizas, los amantillos, las escotas, trapa y las contras o retenidas.
+
+# Jarcia firme
+Es el conjunto de cables y cabos fijos, que no se tocan o varían de posición en un uso normal de un barco. Sirven para sujetar los palos. La jarcia firme lo forman los estáis y los obenques.
+
+# Estay
+Cualquier tipo de nervio metálico concebido para mantener un palo en posición vertical o sujetar lateralmente el bauprés.
+ENG: stay
+IMG: partes-de-un-velero.jpg
+
+# Bauprés
+El mástiles de una embarcación a vela que sale casi horizontalmente por la proa.
