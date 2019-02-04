@@ -1,5 +1,7 @@
 # Náutica
 
+![Windy Day](./windy-day.png)
+
 Really simple web application to help [me](https://github.com/san650) learn sailing concepts.
 
 ## Development
